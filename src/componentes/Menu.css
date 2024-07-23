@@ -1,0 +1,37 @@
+.menu {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu .logo img {
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .menu input {
+    flex: 1;
+    margin: 0 20px;
+    padding: 5px 10px;
+  }
+  
+  .menu nav button {
+    margin-left: 10px;
+    padding: 5px 15px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .menu nav button:hover {
+    background-color: #0056b3;
+  }
